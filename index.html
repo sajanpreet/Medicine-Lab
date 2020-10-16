@@ -1,0 +1,503 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="jquery.datetimepicker.min.css">
+
+    <title>MedicineLab</title>
+
+</head>
+
+<body>
+    <!-- <div class="container-fluid"> -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img src="logo1.png" width="30" height="30" alt=""> Medicinelab</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Department">Department</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Contact">Contact Us</a>
+            </ul>
+
+            <form class="form-inline">
+                <!-- <button class="btn btn-primary" id="appoint" type="button">Make an Appointment</button> -->
+                <a href="#appoint" class="btn btn-primary">Make an Appointment</a>
+        </div>
+    </nav>
+    <!-- main banner -->
+    <section>
+        <div class="container-fluid p-0">
+            <section class="row no-gutters align-items-center">
+                <div class="col-12 text-center d-flex">
+                    <img class="img-fluid of" src="main.jpg" style="height: 70vh;" width="100%">
+                    <div class="w-50 position-absolute text-primary mt-5 mr-5 pr-5">
+                        <h1 class="">WELCOME TO MEDICINELAB</h1>
+
+                        <a href="#choose" class="btn btn-primary btn-lg">Get Started</a>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+
+        <hr>
+
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card bg-primary mr-5">
+                        <div class="card-body">
+                            <h1 class="card-title text-white" id="choose">Why Choose Medicinelab?</h1>
+                            <p class="card-text">
+
+                            <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt
+                                ut
+                                labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit Asperiores dolores
+                                .</p>
+                            <a href="index.html" class="btn btn-outline-light">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card col-sm-2 mr-5" style="width: 18rem;">
+                    <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-box mx-auto mt-3 text-primary"
+                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5 8 5.961 14.154 3.5 8.186 1.113zM15 4.239l-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z" />
+                    </svg>
+                    <div class="card-body">
+                        <h4 class="card-title">Lamcoder labori</h4>
+                        <p class="card-text">Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi
+                            ut aliquip</p>
+
+                    </div>
+                </div>
+                <div class="card col-sm-2 mr-5 " style="width: 18rem;">
+                    <svg width="2em" height="2em" viewBox="0 0 16 16"
+                        class="bi bi-card-heading mx-auto mt-3 text-primary" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M14.5 3h-13a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z" />
+                        <path fill-rule="evenodd"
+                            d="M3 8.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z" />
+                        <path d="M3 5.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5v-1z" />
+                    </svg>
+                    <div class="card-body">
+                        <h4 class="card-title">Corporis Voluptates</h4>
+                        <p class="card-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                            deserunt</p>
+
+                    </div>
+                </div>
+
+
+
+                <div class="card col-sm-2 mr-2" style="width: 18rem;">
+                    <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-images mx-auto mt-3 text-primary"
+                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M12.002 4h-10a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1zm-10-1a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-10z" />
+                        <path
+                            d="M10.648 8.646a.5.5 0 0 1 .577-.093l1.777 1.947V14h-12v-1l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71z" />
+                        <path fill-rule="evenodd"
+                            d="M4.502 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM4 2h10a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1v1a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2h1a1 1 0 0 1 1-1z" />
+                    </svg>
+                    <div class="card-body">
+                        <h4 class="card-title">Labore conse</h4>
+                        <p class="card-text">Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis
+                            facere</p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <br>
+    <!-- about -->
+
+    <div id="about">
+
+        <div class="card my-4 ">
+            <h1 class="text-center display-4">About</h1>
+            <hr class="w-25 mx-auto">
+            <div class="row no-gutters ">
+                <div class="col-md-6">
+                    <img src="about.jpg" class="card-img " height="350px" alt="...">
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card-body">
+                        <h3 class="card-title">Enim quis est voluptatibus aliquid consequatur fugiat</h3>
+                        <p class="card-text">Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non
+                            ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores
+                            excepturi. Libero laboriosam sint et id nulla tenetur. Suscipit aut voluptate.</p>
+                        <h3>Lorem Ipsum</h3>
+                        <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
+                            cupiditate non provident</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services -->
+    <section class="main-heading my-5 bg-light pt-5" id="Services">
+        <div class="container">
+            <h1 class="text-center display-4">Services</h1>
+            <hr class="w-25 mx-auto">
+            <div class="row g-2">
+
+                <div class="card col-md-3 mx-auto" style="width: 18rem;">
+                    <svg width="3em" height="3em" viewBox="0 0 16 16"
+                        class="bi bi-shield-plus mx-auto mt-5 text-primary" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M5.443 1.991a60.17 60.17 0 0 0-2.725.802.454.454 0 0 0-.315.366C1.87 7.056 3.1 9.9 4.567 11.773c.736.94 1.533 1.636 2.197 2.093.333.228.626.394.857.5.116.053.21.089.282.11A.73.73 0 0 0 8 14.5c.007-.001.038-.005.097-.023.072-.022.166-.058.282-.111.23-.106.525-.272.857-.5a10.197 10.197 0 0 0 2.197-2.093C12.9 9.9 14.13 7.056 13.597 3.159a.454.454 0 0 0-.315-.366c-.626-.2-1.682-.526-2.725-.802C9.491 1.71 8.51 1.5 8 1.5c-.51 0-1.49.21-2.557.491zm-.256-.966C6.23.749 7.337.5 8 .5c.662 0 1.77.249 2.813.525a61.09 61.09 0 0 1 2.772.815c.528.168.926.623 1.003 1.184.573 4.197-.756 7.307-2.367 9.365a11.191 11.191 0 0 1-2.418 2.3 6.942 6.942 0 0 1-1.007.586c-.27.124-.558.225-.796.225s-.526-.101-.796-.225a6.908 6.908 0 0 1-1.007-.586 11.192 11.192 0 0 1-2.417-2.3C2.167 10.331.839 7.221 1.412 3.024A1.454 1.454 0 0 1 2.415 1.84a61.11 61.11 0 0 1 2.772-.815z" />
+                        <path fill-rule="evenodd"
+                            d="M8 5.5a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H6a.5.5 0 0 1 0-1h1.5V6a.5.5 0 0 1 .5-.5z" />
+                        <path fill-rule="evenodd"
+                            d="M7.5 8a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1H8.5V10a.5.5 0 0 1-1 0V8z" />
+                    </svg>
+                    <div class="card-body mb-3">
+                        <h3>Lorem Ipsum</h3>
+                        <p class="card-text">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam
+                            nihil molestiae consequat</p>
+                    </div>
+                </div>
+                <div class="card col-md-3 mx-auto" style="width: 18rem;">
+                    <svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-hr mx-auto mt-5 text-primary"
+                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M0 8a.5.5 0 0 1 .5-.5h15a.5.5 0 0 1 0 1H.5A.5.5 0 0 1 0 8z" />
+                        <path
+                            d="M4 3h8a1 1 0 0 1 1 1v2.5h1V4a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v2.5h1V4a1 1 0 0 1 1-1zM3 9.5H2V12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V9.5h-1V12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5z" />
+                    </svg>
+                    <div class="card-body">
+                        <h3>Finibus Bonorum</h3>
+                        <p class="card-text">voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                            quae ab illo inventore veritati.</p>
+                    </div>
+                </div>
+                <div class="card col-md-3 mx-auto" style="width: 18rem;">
+
+                    <svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-front mx-auto mt-5 text-primary"
+                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M0 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2H2a2 2 0 0 1-2-2V2zm5 10v2a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1h-2v5a2 2 0 0 1-2 2H5z" />
+                    </svg>
+                    <div class="card-body">
+                        <h3>Malorum Extremes</h3>
+                        <p class="card-text">All the Lorem Ipsum generators on the Internet tend to repeat predefined
+                            chunks as necessary, making this the first true generator on the Interne</p>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+            <div class="text-center my-5">
+
+                <a href="index.html" class="btn btn-primary btn-lg btn-block">Check More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Appointment -->
+    <section class="main-heading my-5 bg-light pt-5" id="appoint">
+        <div class="text-center">
+            <h1 class="display-4">Make an Appointment</h1>
+            <hr class="w-25 mx-auto">
+        </div>
+        <div class="container">
+            <form class="needs-validation" novalidate>
+                <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                        <label for="validationCustom01">Name</label>
+                        <input type="text" class="form-control" id="validationCustom01" value="" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="validationCustom02">Email</label>
+                        <input type="email" class="form-control" id="validationCustom02" value="" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                        <label for="validationCustom03">City</label>
+                        <input type="text" class="form-control" id="validationCustom03" required>
+                        <div class="invalid-feedback">
+                            Please provide a valid city.
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="validationCustom04">State</label>
+                        <select class="custom-select" id="validationCustom04" required>
+                            <option selected disabled value="">Choose...</option>
+                            <option>...</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Please select a valid state.
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="validationCustom05">Pin Code</label>
+                        <input type="text" class="form-control" id="validationCustom05" required>
+                        <div class="invalid-feedback">
+                            Please provide a valid pin.
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="validationCustom06">Date</label>
+                        <p><input type="date" class="form-control" id=""></p>
+
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="validationCustom04">Department</label>
+                        <select class="custom-select" id="validationCustom04" required>
+                            <option selected disabled value="">Choose...</option>
+                            <option>1</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Please select a valid state.
+                        </div>
+                    </div>
+                    <div class="col-md-12 mb-3">
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Mesage</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    </div>
+                </div>
+
+
+                <a href="index.html" class="btn btn-primary btn-lg mx-auto text-center">Submit</a>
+            </form>
+
+            <script>
+                // Example starter JavaScript for disabling form submissions if there are invalid fields
+                (function () {
+                    'use strict';
+                    window.addEventListener('load', function () {
+                        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                        var forms = document.getElementsByClassName('needs-validation');
+                        // Loop over them and prevent submission
+                        var validation = Array.prototype.filter.call(forms, function (form) {
+                            form.addEventListener('submit', function (event) {
+                                if (form.checkValidity() === false) {
+                                    event.preventDefault();
+                                    event.stopPropagation();
+                                }
+                                form.classList.add('was-validated');
+                            }, false);
+                        });
+                    }, false);
+                })();
+
+            </script>
+
+        </div>
+        </div>
+    </section>
+
+    <!-- Departments -->
+
+    <section class="main-heading my-5 bg-light pt-5" id="Department">
+        <div class="text-center">
+            <h1 class="display-4">Department</h1>
+            <hr class="w-25 mx-auto">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="">
+                                <img src="dep-1.jpg" width="100%" height="250vh"></div>
+                            <h3 class="card-title text-center">Cardiology</h3>
+                            <p class="card-text">Voluptatibus ut enim blanditiis atque harum
+                                sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat
+                                Et nobis maiores eius.
+                                minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique
+                                accusamus nostrum rem vero
+                            </p>
+                            <a href="index.html" class="btn btn-primary btn-block">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="">
+                                <img src="dep-2.jpg" width="100%" height="250vh"></div>
+                            <h3 class="card-title text-center">Cardiology</h3>
+                            <p class="card-text">Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis
+                                recusandae ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet.
+                                Occaecati sed est sint aut vitae molestiae voluptate vel
+                                accusamus nostrum rem vero
+                            </p>
+                            <a href="index.html" class="btn btn-primary btn-block">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="">
+                                <img src="dep-3.jpg" width="100%" height="250vh"></div>
+                            <h3 class="card-title text-center">Pediatrics</h3>
+                            <p class="card-text"> Blanditiis atque harum
+                                sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est Et nobis
+                                maiores eius. Voluptatibus ut enim repellat
+                                minima eveniet eius et quis magni nihil. Consequatur dolorem
+                            </p>
+                            <a href="index.html" class="btn btn-primary btn-block">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="">
+                                <img src="dep-4.jpg" width="100%" height="250vh"></div>
+                            <h3 class="card-title text-center">Eye Care</h3>
+                            <p class="card-text">Aiores eius. Voluptatibus ut enim blanditiis atque harum
+                                sint. Laborum eos ipsum Et nobis m ipsa odit magni. Incidunt hic ut molestiae aut qui.
+                                Est repellat
+                                minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique
+                                accusamus nostrum rem vero
+                            </p>
+                            <a href="index.html" class="btn btn-primary btn-block">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        </div>
+        </div>
+
+        <!-- contact -->
+        <section class="main-heading my-5 bg-light pt-5" id="Contact">
+            <div class="text-center">
+                <h1 class="display-4">Conatct Us</h1>
+                <hr class="w-25 mx-auto">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-10 col-md-8 mx-auto">
+                        <form>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
+                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+                                <div class="pr-4 mb-1">Gender</div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio1" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1">Male</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio2" value="option2">
+                                    <label class="form-check-label" for="inlineRadio2">Female</label>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleDataList" class="form-label">Select City</label>
+                                <input class="form-control" list="datalistOptions" id="exampleDataList"
+                                    placeholder="Type to search...">
+                                <datalist id="datalistOptions">
+                                    <option value="San Francisco"></option>
+                                    <option value="New York"></option>
+                                    <option value="Seattle"></option>
+                                    <option value="Los Angeles"></option>
+                                    <option value="Chicago"></option>
+                                </datalist>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <footer class="bg-dark text-center text-white">
+            <p> &copy;Copyright Medicinelab. All Rights Reserved</p>
+            <p>Design By Sajanpreet</p>
+        </footer>
+
+
+
+
+
+
+
+
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"></script>
+        <script src="jquery.datetimepicker.full.min.js"></script>
+        <script>$('#picker').datetimepicker
+        </script>
+</body>
+
+</html>
